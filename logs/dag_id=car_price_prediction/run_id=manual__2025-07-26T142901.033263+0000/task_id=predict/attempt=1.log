@@ -1,0 +1,18 @@
+{"timestamp":"2025-07-26T14:31:01.201178","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-26T14:31:01.203084","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/hw_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-26T14:31:03.002509Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.003173Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.009066Z","level":"info","event":"Current task name:predict","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.009595Z","level":"info","event":"Dag name:car_price_prediction","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.010163Z","level":"info","event":"Загружаем модель: /opt/airflow/data/models/cars_pipe_202507261430.pkl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.306044Z","level":"info","event":"Предсказания сохранены в: /opt/airflow/data/predictions/preds_202507261431.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.315309Z","level":"info","event":"       car_id    pred","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.316241Z","level":"info","event":"0  7310993818     low","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.316658Z","level":"info","event":"1  7313922964    high","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.317058Z","level":"info","event":"2  7315173150     low","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.317599Z","level":"info","event":"3  7316152972  medium","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.318187Z","level":"info","event":"4  7316509996    high","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.320410","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-26T14:31:03.386184Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.387017Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-26T14:31:03.388614Z","level":"info","event":"Task operator:<Task(PythonOperator): predict>","chan":"stdout","logger":"task"}
